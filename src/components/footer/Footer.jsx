@@ -3,6 +3,8 @@ import './Footer.css';
 import clockIcon from '../../clock-icon.png';
 import callIcon from '../../call-icon.png';
 import locationIcon from '../../location-pin.png';
+import mailIcon from '../../mail-icon.jpeg';
+
 
 const HeadingBlock = () => {
     return (
@@ -30,41 +32,49 @@ const HeadingBlock = () => {
 
 const ContactCard = () => {
     return (
-        <div className='contact-us' style={{
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between'
-        }}>
-            <div className='footer-value' style={{
-                width: '285px',
-            }}>
-                <div className='icon'>
-                    <img src={callIcon} alt='Contact-us'/>
+        <div>
+            <div className='contact-us'>
+                <div className='footer-value' style={{
+                    width: '285px',
+                }}>
+                    <div className='icon'>
+                        <img src={callIcon} alt='Contact-us'/>
+                    </div>
+                    <div className='text-part'>
+                        070110 80431 <br/> 095403 88801
+                    </div>
                 </div>
-                <div className='text-part'>
-                    095403 88801 <br/> 087509 71111
-                </div>
-            </div>
-
-            <div className='footer-value' style={{
-                width: '440px',
-            }}>
-                <div className='icon'>
-                    <img src={locationIcon} alt='Address'/>
-                </div>
-                <div className='text-part'>
-                Shop No. 1631 Najafgarh Thana Road New Delhi, Delhi 110043, India
+                <div className='footer-value' style={{
+                    width: '600px',
+                }}>
+                    <div className='icon'>
+                        <img src={mailIcon} alt='Email-us'/>
+                    </div>
+                    <div className='text-part'>
+                        connect@bunnysbitensip.shop
+                    </div>
                 </div>
             </div>
-
-            <div className='footer-value' style={{
-                width: '412px',
-            }}>
-                <div className='icon'>
-                    <img src={clockIcon} alt='Timings'/>
+            <div className='contact-us'>
+                <div className='footer-value' style={{
+                    width: '412px',
+                }}>
+                    <div className='icon'>
+                        <img src={clockIcon} alt='Timings'/>
+                    </div>
+                    <div className='text-part'>
+                        Mon - Sun <br/> 10:00 AM - 10:00 PM
+                    </div>
                 </div>
-                <div className='text-part'>
-                    Mon - Sun <br/> 10:00 AM - 10:00 PM
+                <div className='footer-value' style={{
+                    width: '600px',
+                }}>
+                    <div className='icon'>
+                        <img src={locationIcon} alt='Address'/>
+                    </div>
+                    <div className='text-part'>
+                        Shop No. 1631, Thana Road, Najafgarh, New Delhi, Delhi, 110043, India
+                    </div>
                 </div>
             </div>
         </div>

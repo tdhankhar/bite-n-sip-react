@@ -5,7 +5,7 @@
 .footer-container {
     width: 1290px;
     margin: 0 auto;
-    padding: 115px 0;
+    padding: 115px 0 35px 0;
 }
 
 .visit-us-button {
@@ -36,4 +36,11 @@
     height: 10px;
     background-color: white;
     border-radius: 10px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 35px 0;
 }
