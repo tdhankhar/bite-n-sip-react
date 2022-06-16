@@ -18,12 +18,7 @@ const ReviewText = () => {
         <div className="review-text-block">
             <div className="review-text" style={{ marginBottom: '80px' }}>
                 Reviews
-                <hr style={{
-                    margin: 0,
-                    height: '10px',
-                    backgroundColor: '#943B31',
-                    width: '220px'
-                }}/>
+                <hr className="review-line"/>
             </div>
             <ReadMoreButton />
         </div>

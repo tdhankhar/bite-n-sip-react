@@ -17,11 +17,7 @@ const HeadingBlock = () => {
                 fontSize: '64px',
             }}>
                 Reach Us
-                <hr style={{
-                    margin: 0,
-                    height: '10px',
-                    backgroundColor: 'white',
-                }} />
+                <hr className="reach-us-line" />
             </div>
             <button className='visit-us-button' onClick={()=> {
                 window.open("https://www.google.com/maps/place/Bunny's+Bite+N+Sip+-+Best+Restaurant+In+Najafgarh+%7C+Best+Chinese+and+Continental+Restaurant+In+Najafgarh/@28.6104687,76.9815019,19.78z/data=!4m5!3m4!1s0x390d0fdc9b750eb1:0xc99332565f3e3e4e!8m2!3d28.610212!4d76.9818885")

@@ -13,6 +13,15 @@
 .review-text {
     color: #943B31;
     font-size: 64px;
+    height: fit-content;
+}
+
+.review-line {
+    margin: 10px 30px;
+    width: 200px;
+    height: 10px;
+    background-color: #943B31;
+    border-radius: 10px;
 }
 
 .read-more-text {

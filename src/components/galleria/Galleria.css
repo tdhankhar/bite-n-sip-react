@@ -18,7 +18,11 @@
 }
 
 .galleria-secondary-text {
-    width: 237px;
+    margin: 10px 30px;
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .galleria-image-collection {
