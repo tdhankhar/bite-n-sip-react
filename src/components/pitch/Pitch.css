@@ -1,0 +1,29 @@
+.pitch {
+    
+}
+
+.pitch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 115px 0;
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.left-pitch {
+    color: #943B31;
+    font-size: 84px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-button {
+    background-color: #943B31;
+    color: white;
+    border-radius: 15px;
+    font-size: 40px;
+    border: none;
+    padding: 20px 36px;
+    font-family: 'Alfa Slab One', cursive;
+}

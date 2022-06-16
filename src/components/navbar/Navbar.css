@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: #943B31 4px solid;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.navbar-item {
+  align-items: center;
+  padding: 0 30px;
+  color: #943B31;
+  text-decoration: inherit;
+  font-size: 32px;
+}
+
+/* @font-face {
+  font-family: 'Myfont';
+  src: local('Myfont'), url(../../Alfa_Slab_One/AlfaSlabOne-Regular.ttf) format('ttf');
+} */

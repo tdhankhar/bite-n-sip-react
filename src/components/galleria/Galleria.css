@@ -1,0 +1,34 @@
+.galleria-main {
+    background-color: #943B31;
+    padding: 70px 0;
+}
+
+.galleria-main-text {
+    font-size: 64px;
+    color: white;
+}
+
+.galleria-text {
+    width: 100%;
+}
+
+.galleria-container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.galleria-secondary-text {
+    width: 237px;
+}
+
+.galleria-image-collection {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image {
+    margin: 70px 0;
+}

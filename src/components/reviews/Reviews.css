@@ -1,0 +1,42 @@
+.review-main {
+    padding: 115px 0;
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.review-text-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-text {
+    color: #943B31;
+    font-size: 64px;
+}
+
+.read-more-text {
+    padding: 20px 36px;
+    border-radius: 15px;
+    background-color: #943B31;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    color: white;
+}
+
+.review-card-container {
+    width: 371px;
+    height: 527px;
+    color: #943B31;
+    font-size: 24px;
+    border: #943B31 5px solid;
+    display: flex;
+}
+
+.review-card {
+    padding: 43px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}

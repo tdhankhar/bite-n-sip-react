@@ -1,0 +1,30 @@
+.footer {
+    background-color: #943B31;
+}
+
+.footer-container {
+    width: 1290px;
+    margin: 0 auto;
+    padding: 115px 0;
+}
+
+.visit-us-button {
+    padding: 20px 36px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: #943B31;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.icon img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 24px;
+}
+
+.text-part {
+    font-size: 36px;
+    color: white;
+}
